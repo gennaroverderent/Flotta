@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {  }
+body { margin: 0; padding: 0; font-size: 12px; }
+b { color: #000; text-shadow:none; text-align:center;}
+h2 { color: #000; text-shadow:none; text-align:center;}
+h3 { color: #000; text-shadow:none; text-align:center;}
+a { color: #000; text-shadow:none; text-decoration:none;}
+.ui-mobile-viewport { background-color: #ffffff; }
+
+.ui-page { background-color: #ffffff; }
+.ui-page.ui-body-c.ui-page-active { background: #ffffff; }
+.ui-page.ui-body-c.ui-page-active .ui-content { background: #ffffff;  }
+
+.ui-page-header-fullscreen .ui-content, .ui-page-footer-fullscreen .ui-content{
+    padding-top: 39px;/* fix for fixed toolbar mode */
+}
+.ui-body.ui-body-b.ui-corner{ background: #fff ; }
+.ui-body.ui-body-b.ui-corner-all { background: #fff ; }
+.ui-body.ui-body-b.ui-corner-all.novita { background: rgba(0,0,0,0.70); color: #fff; margin: 0px 0px 0px 0px; text-align: center;}
+.ui-body.ui-body-b.ui-corner-all.dovesiamo { background: #ffffff ; 
+											text-align: center;
+											color: #000;
+											}
+.ui-body.ui-body-b.ui-corner-all.dovesiamo01 { background: #ffffff ; }
+.ui-body.ui-body-b.ui-corner-all.dovesiamo h2 { color: #000 ; font-size:18px; }
+.ui-body.ui-body-b.ui-corner-all.dovesiamo b { color: #000 ; font-size:13px; }
+.ui-body.ui-body-b.ui-corner-all.dovesiamo01 b { 
+color: #fff; 
+text-shadow:none;
+font-size:12px;
+}
+.ui-listview li {
+background: #000 ;  
+}
+.ui-listview a {
+color: #000 ;
+
+}
+/* foto */
+#foto { width: 100%; }
+/* logo sulle pagine */
+.logo {
+    width: 100%;
+	max-width: 350px;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+}
+.logo img {
+    width: 50%;
+}
+.logo01 {
+    width: 100%;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+}
+.logo01 img {
+    width: 100%;
+}
+.offerta {
+    width: 100%;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+}
+.offerta img {
+    width: 30%;
+}
+
+/* === FOOTER BAR === */
+.ui-footer {
+	border-color: #0d0d0d;
+		background: #2d2d2d; /* Old browsers */
+		background: -moz-linear-gradient(top,  #2d2d2d 0%, #151515 49%, #000000 50%, #000000 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2d2d2d), color-stop(49%,#151515), color-stop(50%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #2d2d2d 0%,#151515 49%,#000000 50%,#000000 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #2d2d2d 0%,#151515 49%,#000000 50%,#000000 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #2d2d2d 0%,#151515 49%,#000000 50%,#000000 100%); /* IE10+ */
+		background: linear-gradient(top,  #2d2d2d 0%,#151515 49%,#000000 50%,#000000 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.ui-footer b {
+	color: #fff;
+	    text-align: center;
+	text-shadow:none ;
+	}
+.ui-footer .ui-btn {
+	border: 0 none;
+	background: transparent;
+}
+.ui-footer .ui-btn-active {
+	background: none rgba(255,255,255,0.14);
+		-webkit-border-radius: 4px !important;
+		-moz-border-radius: 4px !important;
+		border-radius: 4px !important;
+}
+.ui-footer .ui-btn-inner {
+	border-color: #434343;
+	padding-top: 30px !important;
+	padding-bottom: 1px !important;
+}
+.ui-footer .ui-btn-text {
+	font-size: 10px;
+	text-shadow: 0 none;
+}
+.ui-footer .ui-icon-custom.ui-icon {
+	width: 30px;
+	height: 30px;
+	margin-left: -16px;
+}
+/* fixes issue #25 */
+.ui-footer .ui-icon-shadow {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+	#tabA .ui-icon {
+		background: url(images/home2.png) 3px 0 no-repeat;
+		background-size: 25px 25px;
+		
+	}
+		#tabA.ui-btn-active .ui-icon {
+			background: url(images/home2a.png) 3px 0 no-repeat;
+			background-size: 25px 25px;
+		}
+	#tabB .ui-icon {
+		background: url(images/photo3.png) 4px 0px no-repeat;
+		background-size: 25px 25px;
+	}
+		#tabB.ui-btn-active .ui-icon {
+			background: url(images/photo3a.png) 4px 0px no-repeat;
+			background-size: 25px 25px;
+		}
+	#tabC .ui-icon {
+		background: url(images/team.png) 1px 0px no-repeat;
+		background-size: 30px 30px;
+	}
+		#tabC.ui-btn-active .ui-icon {
+			background: url(images/teama.png) 1px 0px no-repeat;
+			background-size: 30px 30px;
+		}
+			#tabD .ui-icon {
+		background: url(images/locate.png) 3px 0px no-repeat;
+		background-size: 25px 25px;
+	}
+		#tabD.ui-btn-active .ui-icon {
+			background: url(images/locatea.png) 3px 0px no-repeat;
+			background-size: 25px 25px;
+		}
+	#tabE .ui-icon {
+		background: url(images/note.png) 3px 0px no-repeat;
+		background-size: 25px 25px;
+	}
+		#tabE.ui-btn-active .ui-icon {
+			background: url(images/notea.png) 3px 0px no-repeat;
+			background-size: 25px 25px;
+		}
+
+/* button color */
+.ui-btn {
+    background: #ff6500 ;
+	background-size: 15px;
+    text-shadow: none;
+	color:#fff;
+}
+
+.ui-collapsible .ui-listview  li {
+color: #000 ;
+text-shadow:none ;
+background: #be8888 ;
+font-size: 16px ;
+}
+
+#news01 {
+  text-align: center;
+  text-shadow: none ;
+}
+
+#dialogo {
+  color: #000 ;
+  background: #e4fce6 ;
+  text-shadow: none ;
+}
+
+#menu.ui-listview  li {
+color: #000 ;
+text-shadow:none ;
+background: #fff ;
+font-size: 14px ;
+}
+#menu.ui-listview .ui-li-divider  {
+color: #fff ;
+text-shadow:none ;
+background: #059eac ;
+font-size: 16px ;
+text-align: center;
+}
+#menu.ui-listview .ui-li-divider  {
+color: #fff ;
+text-shadow:none ;
+background: #059eac ;
+font-size: 16px ;
+text-align: center;
+}
+.ui-header {
+	/* background: #059eac; */
+	background: #ff6500 url(images/logo01.png) center no-repeat;
+	background-size: 150px 27px;
+	/* background: url('images/logocss.png') no-repeat  right; */
+	}
+	
+
+a {
+  text-align: center;
+  text-shadow: none ;
+  color:#fff;
+  text-decoration:none;
+}
+.ui-body.ui-body-b.ui-corner-all.dovesiamo02 h2{ color:#fff ; text-align:center; }
+
+#photolist img {
+	width: 100%; /*always a 100 percent of 23%*/
+	webkit-border-radius: 10px;
+	moz-border-radius: 10px;
+	border-radius: 10px;
+	float: left; /*gets rid of extra space*/
+}
+
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+	font-weight: 0px;
+}
+
+
+.ui-link {
+	text-decoration: none;
+}
+
+.ui-listview  li  {
+color: #FFF ;
+text-shadow:none ;
+background: #059eac url('images/logo01.png') repeat  center;
+background-size: 100px;
+font-size: 14px ;
+}
+.ui-listview  li h1  {
+color: #FFF ;
+text-shadow:none ;
+font-size: 16px ;
+}
+@media all and (max-width: 28em){
+    .ui-grid-a .ui-block-a,
+    .ui-grid-a .ui-block-b {
+        width: 100%;
+        clear: left;
+    }
+}
